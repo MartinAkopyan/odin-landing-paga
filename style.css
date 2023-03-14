@@ -188,3 +188,15 @@ h1 {
 	border: 1px solid var(--c-white);
 	flex-shrink: 0;
 }
+
+.footer {
+	padding-block: 40px;
+	background-color: var(--c-secondary);
+	text-align: center;
+}
+
+.footer p {
+	color: var(--c-white);
+	font-size: 16px;
+	font-weight: 300;
+}
