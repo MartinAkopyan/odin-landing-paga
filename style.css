@@ -159,3 +159,32 @@ h1 {
 	font-weight: 900;
 	text-align: right;
 }
+
+.action {
+	padding-block: 80px;
+	background-color: var(--c-white);
+}
+
+.action__container {
+	background-color: var(--c-primary);
+	padding: 40px 100px;
+	display: flex;
+	gap: 40px;
+	width: 80%;
+	/* align-items: flex-end; */
+}
+
+.action__text-title {
+	color: var(--c-white);
+	margin-bottom: 10px;
+	font-size: 24px;
+}
+
+.action__text-subtitle {
+	color: var(--c-white);
+}
+
+.action__btn {
+	border: 1px solid var(--c-white);
+	flex-shrink: 0;
+}
