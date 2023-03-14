@@ -21,6 +21,7 @@
 body {
 	font-family: Roboto, 'sans-serif';
 	background-color: var(--c-grey);
+	color: var(--c-secondary);
 }
 
 .container {
@@ -106,4 +107,39 @@ h1 {
 	background-color: var(--c-primary);
 	border: none;
 	border-radius: 4px;
+}
+
+.info {
+	padding-block: 80px;
+	background-color: var(--c-white);
+}
+
+.info__container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.h2 {
+	text-align: center;
+	font-size: 36px;
+	font-weight: 900;
+	margin-bottom:  50px;
+}
+
+.info__card {
+	width: 200px;
+}
+
+
+.info__card-img {
+	height: 200px;
+	width: 100%;
+	border: 3px solid var(--c-primary);
+	border-radius: 8px;
+	margin-bottom: 15px;
+}
+
+.info__card-text {
+	text-align: center;
+	
 }
