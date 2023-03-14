@@ -169,6 +169,7 @@ h1 {
 	background-color: var(--c-primary);
 	padding: 40px 100px;
 	display: flex;
+	justify-content: space-between;
 	gap: 40px;
 	width: 80%;
 	/* align-items: flex-end; */
