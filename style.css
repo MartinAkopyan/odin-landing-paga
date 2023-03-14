@@ -141,5 +141,21 @@ h1 {
 
 .info__card-text {
 	text-align: center;
-	
+}
+
+.quote {
+	padding-block: 80px 50px;
+}
+
+.quote__text {
+	font-size: 36px;
+	font-style: italic;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+
+.quote__sign {
+	font-size: 24px;
+	font-weight: 900;
+	text-align: right;
 }
