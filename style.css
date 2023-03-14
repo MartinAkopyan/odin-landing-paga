@@ -24,6 +24,10 @@ body {
 	color: var(--c-secondary);
 }
 
+.mt-auto {
+	margin-top: auto;
+}
+
 .container {
 	max-width: 1170px;
 	padding-inline: 15px;
@@ -86,6 +90,12 @@ body {
 .hero__text {
 	flex: 1 1 0;
 	flex-shrink: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.hero__text .btn {
+	width: fit-content;
 }
 
 h1 {
